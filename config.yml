@@ -1,0 +1,23 @@
+# Permissao para enviar caixas
+permissao-admin: ryuservers.admin
+
+# IDs dos encantamentos: https://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/365638-enchantment-id-list
+
+Caixas:
+  # Exemplo de caixa com tudo que tem direito
+  1:
+    nome: "&cCaixa de Teste"
+    anuncio: "&b%player% &fAbriu uma %caixa% &fe recebeu um premio incrível!"
+    comandos:
+      - 'give %player% minecraft:diamond_pickaxe 1 0 {ench:[{id:35,lvl:30},{id:34,lvl:30},{id:32,lvl:30}],display:{Name:"&5Picareta OP"}}'
+      - 'money grant %player% 1000000'
+    desc:
+      - ''
+      - '&7Exemplo de descrição!'
+      - ''
+  # Exemplo de caixa simples
+  2:
+    nome: "Caixa para Testes"
+    anuncio: false
+    comandos:
+      - 'give %player% minecraft:diamond_pickaxe 1 0 {ench:[{id:35,lvl:6},{id:34,lvl:6},{id:32,lvl:6}],display:{Name:"&bPicareta OP"}}'

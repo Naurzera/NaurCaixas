@@ -1,0 +1,8 @@
+name: NaurCaixas
+version: 1.0.0
+description: Caixas para o servidor
+author: Naur
+main: com.ryuservers.caixas.Main
+commands:
+  darcaixa:
+  darcaixaall:
